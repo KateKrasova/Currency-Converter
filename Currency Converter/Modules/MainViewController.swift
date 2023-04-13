@@ -6,12 +6,15 @@
 //
 
 import UIKit
+import SwifterSwift
+import Then
 
 final class MainViewController: UIViewController {
     
     // MARK: - Private Props
     
     private let moduleView = MainView()
+    let apiService = ApiService()
 
     // MARK: - LifeCycle
     
@@ -21,5 +24,9 @@ final class MainViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        let responce = apiService.makeRequest()
+        
+        moduleView.render(.init(usd: "55"))
     }
 }

@@ -113,3 +113,4 @@ iOSInjectionProject/
 */*.xcodeproj/project.xcworkspace/contents.xcworkspacedata
 */*.xcodeproj/project.xcworkspace/xcshareddata/IDEWorkspaceChecks.plist
 */*.xcodeproj/project.xcworkspace/xcshareddata/swiftpm/Package.resolved
+Package.resolved
